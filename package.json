@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "koa": "^2.13.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0",
+    "nodemon": "^2.0.6",
+    "stripe": "^8.121.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.6",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.4.1"
+  },
+  "scripts": {
+    "nodemon:start": "nodemon --exec ts-node index.ts",
+    "start": "ts-node index.ts"
+
+  }
+}
