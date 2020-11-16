@@ -10,6 +10,7 @@
     "koa-json": "^2.0.2",
     "koa-logger": "^3.2.1",
     "koa-router": "^10.0.0",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.6",
     "stripe": "^8.121.0",
     "ts-node": "^9.0.0",
@@ -24,6 +25,5 @@
   "scripts": {
     "nodemon:start": "nodemon --exec ts-node index.ts",
     "start": "ts-node index.ts"
-
   }
 }
